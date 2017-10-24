@@ -1,45 +1,58 @@
 var app = new Vue({
   el: '#app',
   data: {
-    firstName: "Jules",
-    lastName: "Bonnard",
-    description: "Je suis datajournaliste à l'AFP et j'enseigne le code, le traitement, et la visualisation de données à Sciences Po.",
-    photo: "https://pbs.twimg.com/profile_images/899285838516936704/nfeLD7he_400x400.jpg",
-    twitter: "julesbonnard",
-    github: "julesbonnard",
-    mail: "julesbonnard@gmail.com",
+    firstName: "Marie",
+    lastName: "Zafimehy",
+    description: "Je suis étudiante à l'École de Journalisme de Sciences Po, et journaliste apprentie à RTL.fr",
+    photo: "17883633_10210583411374962_8523833414684887524_n.jpg",
+    twitter: "marie_zfm",
+    github: "marie-zed",
+    mail: "marie.zafimehy@sciencespo.fr / marie.zafimehy@rtl.fr",
     experiences: [{
-      dateBegin: "2014",
+      dateBegin: "2017",
       dateEnd: "Today",
-      name: "Agence France Presse",
-      title: "Datajournalist",
-      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+      name: "RTL",
+      title: "Journaliste actu",
+      description: "Propositions d'angles et rédactions d'articles d'actualité",
+      logo: "http://static.rtl.fr/versions/www/6.0.531/img/rtl_fb.jpg"
     }, {
-      dateBegin: "Été 2013",
+      dateBegin: "Mai-Juin 2017",
       dateEnd: false,
-      name: "Le Monde.fr",
-      title: "Data-journalist",
-      description: false
+      name: "L'Express",
+      title: "Journaliste stagiaire",
+      description: "Enquête de terrain puis rédaction du supplément immobilier de la ville d'Angers"
     }, {
-      dateBegin: "2012",
-      dateEnd: "2013",
-      name: "Le Dauphiné Libéré",
-      title: "Stagiaire et correspondant de presse",
-      description: false
+      dateBegin: "Janvier 2017",
+      dateEnd: false,
+      name: "Le Parisien 92",
+      title: "Journaliste stagiaire ",
+      description: "Propositions d'angles et rédaction d'articles sur l'actualité du département des Hauts-de-Seine"
+    }, {
+      dateBegin: "Juin 2016",
+      dateEnd: false,
+      name: "The Local Sweden",
+      title: "Journaliste stagiaire",
+      description: "En anglais : propositions d'angles et rédaction d'articles sur l'actualité suédoise"
+    }, {
+      dateBegin: "Juillet 2015",
+      dateEnd: false,
+      name: "Rue89",
+      title: "Journaliste stagiaire ",
+      description: "Propositions d'angles et rédaction d'articles sur l'actualité du numérique"
     }],
     formations: [{
-      dateBegin: "2012",
-      dateEnd: "2014",
+      dateBegin: "2016",
+      dateEnd: "Today",
       name: "Master Journalisme",
-      university: "Sciences Po Grenoble"
+      university: "Sciences Po Paris"
     }, {
-      dateBegin: "2009",
-      dateEnd: "2012",
+      dateBegin: "2013",
+      dateEnd: "2016",
       name: "Bachelor Sciences Politiques",
-      university: "Sciences Po Grenoble"
+      university: "Sciences Po Paris"
     }],
-    languages: ["Anglais"],
-    skills: ["Node", "VueJS", "D3js", "SCSS", "HTML"]
+    languages: ["Anglais", "Suédois", "Espagnol"],
+    skills: ["Adobe Premiere Pro", "Adobe Audition", "GitHub", "HTML", "CSS", "Réseaux sociaux"],
   },
   computed: {
     fullName() {
